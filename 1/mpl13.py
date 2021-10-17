@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-data = [r'C:\Users\Anton\Downloads\dead_moroz\001.dat', r'C:\Users\Anton\Downloads\dead_moroz\002.dat', r'C:\Users\Anton\Downloads\dead_moroz\003.dat', r'C:\Users\Anton\Downloads\dead_moroz\004.dat', r'C:\Users\Anton\Downloads\dead_moroz\005.dat']
+data = [r'files\001.dat', r'files\002.dat', r'files\003.dat', r'files\004.dat', r'files\005.dat']
 for i in data:
     f = open(i, 'r')
     x = []
