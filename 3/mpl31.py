@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-f = open(r'C:\Users\Anton\Downloads\students.csv')
+f = open(r'files/students.csv')
 lines = f.readlines()
 preps = []
 groups = []
@@ -46,7 +46,8 @@ for i in range(7):
 ax.set_title('Marks per prep')
 ax.legend()
 
-plt.show()
+#plt.show()
+fig.savefig("Marks per prep" + ".png")
 
 #MARKS PER GROUP
 labels_ = sorted(set(groups))
@@ -80,4 +81,5 @@ for i in range(7):
 ax.set_title('Marks per group')
 ax.legend()
 
-plt.show()
+#plt.show()
+fig.savefig("Marks per group" + ".png")
