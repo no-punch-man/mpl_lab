@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-f = open(r'C:\Users\Anton\Downloads\frames.dat.txt')
+f = open(r'files\frames.dat.txt')
 lines = f.readlines()
 i = 1
 n = 1
